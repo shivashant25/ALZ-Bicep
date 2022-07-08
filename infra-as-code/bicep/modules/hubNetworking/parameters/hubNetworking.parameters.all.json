@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parLocation": {
-      "value": "eastus"
+      "value": "centralus"
     },
     "parCompanyPrefix": {
       "value": "alz"
@@ -132,9 +132,9 @@
         "privatelink.media.azure.net",
         "privatelink.his.arc.azure.com",
         "privatelink.guestconfiguration.azure.com",
-        "privatelink.xxxxxx.azmk8s.io", // Replace xxxxxx with target region (i.e. eastus)
-        "privatelink.xxxxxx.backup.windowsazure.com", // Replace xxxxxx with target region (i.e. eastus)
-        "privatelink.xxxxxx.batch.azure.com" // Replace xxxxxx with target region (i.e. eastus),
+        "privatelink.centralus.azmk8s.io", // Replace xxxxxx with target region (i.e. eastus)
+        "privatelink.centralus.backup.windowsazure.com", // Replace xxxxxx with target region (i.e. eastus)
+        "privatelink.centralus.batch.azure.com" // Replace xxxxxx with target region (i.e. eastus),
       ]
     },
     "parVpnGatewayConfig": {
